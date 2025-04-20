@@ -1,3 +1,4 @@
 /gen_venv
 **/*_token.txt
+**/token.txt
 *.pyc
