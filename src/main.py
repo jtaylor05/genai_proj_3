@@ -58,7 +58,7 @@ for i in files_to_check:
                     prompt2 = input_stream[3]
                     output.append(model + "\n")
                     output.append(strat + "\n")
-                    output.append(role_play_prompt(clients, clients.MODELS[model], prompt1, prompt2))
+                    output.append(prompt_chaining(clients, clients.MODELS[model], prompt1, prompt2))
                     input_stream = input_stream[4:]
             except:
                 raise IndexError("Not enough arguements for {} prompting".format(strat))
