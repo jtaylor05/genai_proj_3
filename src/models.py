@@ -9,7 +9,8 @@ class Models:
                 'chatgpt':'gpt-4o',
                 'codestral':'Codestral-2501', 
                 'gemini':'gemini-2.0-flash', 
-                'claude':'claude-3-7-sonnet-20250219'
+                'claude':'claude-3-7-sonnet-20250219',
+                'llama':'Llama-4-Maverick-17B-128E-Instruct-FP8'
              }
 
     def __init__(self):
@@ -35,18 +36,22 @@ class Models:
             return self.gemini(messages, max_tokens)
         if model == self.MODELS['claude']:
             return self.claude(messages, max_tokens)
+        if model == self.MODELS['llama']:
+            return self.llama(messages, max_tokens)
         
         raise Exception("Input model does not exist")
     
     def to_message_format(self, model, user_prompt, system_prompt = ""):
-        if model == self.MODELS['chatgpt'] or model == self.MODELS['codestral'] or model == self.MODELS['claude']:
+        if model == self.MODELS['chatgpt'] or model == self.MODELS['codestral'] or model == self.MODELS['claude'] or model == self.MODELS['llama']:
+            if system_prompt == "":
+                return [{ "role": "user", "content": user_prompt }]
             return [{ "role": "system", "content": system_prompt },
                     { "role": "user", "content": user_prompt }]
         if model == self.MODELS['gemini']:
             return " ".join([system_prompt, user_prompt])
         
     def add_to_message_formate(self, model, message, user_prompt, assistant_reply):
-        if model == self.MODELS['chatgpt'] or model == self.MODELS['codestral'] or model == self.MODELS['claude']:
+        if model == self.MODELS['chatgpt'] or model == self.MODELS['codestral'] or model == self.MODELS['claude'] or model == self.MODELS['llama']:
             message.append({"role": "assistant", "content": assistant_reply})
             message.append({"role": "user", "content": user_prompt})
             return message
@@ -62,6 +67,15 @@ class Models:
         )
         return message
     
+    def llama(self, messages, max_tokens = 1024):
+        print(messages)
+        response = self.openai_client.chat.completions.create(
+            model=self.MODELS['llama'],
+            max_tokens=max_tokens,
+            messages=messages
+        )
+        return response.choices[0].message.content
+
     def gemini(self, messages, max_tokens = 1024):
         response = self.gemini_client.models.generate_content(
             model="gemini-2.0-flash", 

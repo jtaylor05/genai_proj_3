@@ -2,6 +2,7 @@ from models import Models
 from nltk.translate.bleu_score import sentence_bleu
 
 def zero_shot_prompt(models : Models, model, prompt):
+    print(models.to_message_format(model, prompt))
     return models.request(model, models.to_message_format(model, prompt))
 def few_shot_prompt(models : Models, model, prompt, examples):
     system_prompt = "\n".join(examples)
