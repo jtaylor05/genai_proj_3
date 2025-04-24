@@ -1,0 +1,42 @@
+gemini <ENDTOKEN>
+ZS <ENDTOKEN>
+Please suggest a more correct name for the following C++ function:
+// Supposed to return true if x is even
+bool isOdd (int x ) {
+    return x % 2 == 0; // Logic contradicts function name
+} <ENDTOKEN>
+llama <ENDTOKEN>
+ZS <ENDTOKEN>
+Please suggest a more correct name for the following C++ function:
+// Supposed to return true if x is even
+bool isOdd (int x ) {
+    return x % 2 == 0; // Logic contradicts function name
+} <ENDTOKEN>
+gemini <ENDTOKEN>
+FS <ENDTOKEN>
+// Supposed to return a - b
+int add(int a, int b) {
+    return a - b;
+}
+Correct Name: subtract
+<ENDTOKEN>
+Please suggest a more correct name for the following C++ function:
+// Supposed to return true if x is even
+bool isOdd (int x ) {
+    return x % 2 == 0; // Logic contradicts function name
+}
+Correct Name: <ENDTOKEN>
+llama <ENDTOKEN>
+FS <ENDTOKEN>
+// Supposed to return a - b
+int add(int a, int b) {
+    return a - b;
+}
+Correct Name: subtract
+<ENDTOKEN>
+Please suggest a more correct name for the following C++ function:
+// Supposed to return true if x is even
+bool isOdd (int x ) {
+    return x % 2 == 0; // Logic contradicts function name
+}
+Correct Name:

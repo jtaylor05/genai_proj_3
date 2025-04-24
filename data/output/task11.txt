@@ -1,0 +1,63 @@
+chatgpt
+
+@
+ZS
+
+@
+**Prompt:**
+
+Write a Python function called is_prime that takes one argument n and returns True if n is a prime number, and False otherwise. The function should handle edge cases (numbers less than or equal to 1), and for efficiency, only check divisibility up to the square root of n. Include comments to explain the logic.
+@
+codestral
+
+@
+ZS
+
+@
+Sure, here is a prompt that could generate the Python code you provided:
+
+---
+
+**Prompt:**
+
+Write a Python function named `is_prime` that takes an integer `n` as input and returns a boolean value indicating whether `n` is a prime number. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. Here are the steps to implement the function:
+
+1. If `n` is less than or equal to 1, return `False` because numbers less than or equal to 1 are not prime.
+2. Loop through all numbers from 2 up to the square root of `n` (inclusive) and check if `n` is divisible by any of these numbers.
+3. If `n` is divisible by any number in this range, return `False`.
+4. If no divisors are found, return `True`.
+
+---
+
+This prompt should guide the generation of the Python code that checks if a number is prime.
+@
+chatgpt
+
+@
+SC
+
+@
+**Prompt:**
+
+Write a Python function called is_prime that checks whether a given integer n is a prime number. The function should return False if n is less than or equal to 1. For values greater than 1, check divisibility from 2 up to the square root of n (inclusive). If n is divisible by any of these numbers, return False; otherwise, return True. Include comments explaining that the function checks if a number is prime.
+@
+codestral
+
+@
+SC
+
+@
+Sure! Here is a prompt that would generate the given Python code:
+
+---
+
+Write a Python function named `is_prime` that takes an integer `n` as an argument and returns `True` if `n` is a prime number, and `False` otherwise. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+Include the following logic in your function:
+1. If `n` is less than or equal to 1, return `False` because prime numbers are greater than 1.
+2. Use a loop to check for factors of `n` from 2 up to the square root of `n`. If `n` is divisible by any of these numbers, return `False`.
+3. If no factors are found, return `True`.
+
+---
+
+This prompt should guide the generation of the provided Python code.

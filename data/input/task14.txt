@@ -1,0 +1,40 @@
+chatgpt <ENDTOKEN>
+FS <ENDTOKEN>
+def factorial(n):
+    # TODO : Base cases and recursive call
+    pass
+COMPLETE CODE: return 1 if n <= 1 else n * factorial(n - 1)
+<ENDTOKEN>
+Please complete the following python code:
+def fibonacci ( n ) :
+    # TODO : Base cases and recursive call
+    pass
+COMPLETE CODE:
+<ENDTOKEN>
+llama <ENDTOKEN>
+FS <ENDTOKEN>
+def factorial(n):
+    # TODO : Base cases and recursive call
+    pass
+COMPLETE CODE: return 1 if n <= 1 else n * factorial(n - 1)
+<ENDTOKEN>
+Please complete the following python code:
+def fibonacci ( n ) :
+    # TODO : Base cases and recursive call
+    pass
+COMPLETE CODE:
+<ENDTOKEN>
+chatgpt <ENDTOKEN>
+COT <ENDTOKEN>
+Please complete the following python code:
+def fibonacci ( n ) :
+    # TODO : Base cases and recursive call
+    pass
+<ENDTOKEN>
+llama <ENDTOKEN>
+COT <ENDTOKEN>
+Please complete the following python code:
+def fibonacci ( n ) :
+    # TODO : Base cases and recursive call
+    pass
+<ENDTOKEN>

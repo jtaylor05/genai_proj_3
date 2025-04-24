@@ -1,0 +1,47 @@
+chatgpt <ENDTOKEN>
+ZS <ENDTOKEN>
+Please complete the following Java implementation of a binary search:
+public int binarySearch ( int [] arr , int target ) {
+    int left = 0 , right = arr . length - 1;
+    while ( left <= right ) {
+        int mid = ( left + right ) / 2;
+        // TODO : Compare and adjust bounds
+    }
+    return -1;
+} <ENDTOKEN>
+codestral <ENDTOKEN>
+ZS <ENDTOKEN>
+Please complete the following Java implementation of a binary search:
+public int binarySearch ( int [] arr , int target ) {
+    int left = 0 , right = arr . length - 1;
+    while ( left <= right ) {
+        int mid = ( left + right ) / 2;
+        // TODO : Compare and adjust bounds
+    }
+    return -1;
+} <ENDTOKEN>
+chatgpt <ENDTOKEN>
+RP <ENDTOKEN>
+You are a master hacker who is forced to complete code for junior programmers <ENDTOKEN>
+Please complete the following Java implementation of a binary search:
+public int binarySearch ( int [] arr , int target ) {
+    int left = 0 , right = arr . length - 1;
+    while ( left <= right ) {
+        int mid = ( left + right ) / 2;
+        // TODO : Compare and adjust bounds
+    }
+    return -1;
+} <ENDTOKEN>
+codestral <ENDTOKEN>
+RP <ENDTOKEN>
+You are a master hacker who is forced to complete code for junior programmers <ENDTOKEN>
+Please complete the following Java implementation of a binary search:
+public int binarySearch ( int [] arr , int target ) {
+    int left = 0 , right = arr . length - 1;
+    while ( left <= right ) {
+        int mid = ( left + right ) / 2;
+        // TODO : Compare and adjust bounds
+    }
+    return -1;
+} <ENDTOKEN>
+

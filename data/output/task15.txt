@@ -1,0 +1,123 @@
+codestral
+
+@
+FS
+
+@
+Certainly! Below is the completed `__init__` method for the `Person` class, which includes `name`, `age`, and an optional `email` parameter:
+
+```python
+class Person:
+    def __init__(self, name, age, email=None):
+        self.name = name
+        self.age = age
+        self.email = email
+```
+
+This method initializes a `Person` object with a `name`, `age`, and an optional `email`. If no `email` is provided, it defaults to `None`.
+@
+gemini
+
+@
+FS
+
+@
+```python
+class Spaceship:
+    def __init__(self, name, fuel):
+        # TODO: Add name and fuel
+        self.name = name
+        self.fuel = fuel
+
+class Person:
+    def __init__(self, name, age, email=None):
+        # TODO : Add name , age , and optional email
+        self.name = name
+        self.age = age
+        self.email = email
+```
+@
+codestral
+
+@
+SC
+
+@
+Sure, to complete the `__init__` method for the `Person` class, you can define parameters for the name, age, and an optional email. Here is an example of how you can do it:
+
+```python
+class Person:
+    def __init__(self, name, age, email=None):
+        self.name = name
+        self.age = age
+        self.email = email
+
+# Example usage:
+person1 = Person("Alice", 30)
+person2 = Person("Bob", 25, "bob@example.com")
+
+print(person1.name)  # Output: Alice
+print(person1.age)   # Output: 30
+print(person1.email) # Output: None
+
+print(person2.name)  # Output: Bob
+print(person2.age)   # Output: 25
+print(person2.email) # Output: bob@example.com
+```
+
+In this implementation:
+- The `__init__` method takes three parameters: `name`, `age`, and an optional `email`.
+- `name` and `age` are required parameters, meaning you must provide values for them when creating an instance of the `Person` class.
+- `email` is an optional parameter, and its default value is `None`. You can provide a value for it if you have an email address to include.
+@
+gemini
+
+@
+SC
+
+@
+```python
+class Person:
+    def __init__(self, name, age, email=None):
+        """
+        Initializes a Person object.
+
+        Args:
+            name (str): The person's name.
+            age (int): The person's age.
+            email (str, optional): The person's email address. Defaults to None.
+        """
+        self.name = name
+        self.age = age
+        self.email = email
+```
+
+**Explanation:**
+
+1. **Parameters:** The `__init__` method now takes three parameters:
+   - `name`:  The person's name (required).
+   - `age`: The person's age (required).
+   - `email`: The person's email address (optional). We set a default value of `None` so that the email is not a required parameter.
+
+2. **Attributes:** Inside the `__init__` method, we assign the values passed as arguments to the object's attributes using `self`:
+   - `self.name = name`
+   - `self.age = age`
+   - `self.email = email`
+
+**How to use it:**
+
+```python
+# Create a person with a name, age, and email
+person1 = Person("Alice", 30, "alice@example.com")
+
+# Create a person with just a name and age (no email)
+person2 = Person("Bob", 25)
+
+print(person1.name)   # Output: Alice
+print(person1.age)    # Output: 30
+print(person1.email)  # Output: alice@example.com
+
+print(person2.name)   # Output: Bob
+print(person2.age)    # Output: 25
+print(person2.email)  # Output: None
+```

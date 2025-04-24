@@ -1,0 +1,40 @@
+chatgpt <ENDTOKEN>
+ZS <ENDTOKEN> 
+Please summarize the functionality of the following JAVA method:
+public Map < String , Integer > countWordFrequency ( List < String > words ) {
+    Map < String , Integer > freqMap = new HashMap < >() ;
+    for ( String word : words ) {
+        freqMap . put ( word , freqMap . getOrDefault ( word , 0) + 1) ;
+    }
+    return freqMap ;
+}<ENDTOKEN>
+gemini <ENDTOKEN>
+ZS <ENDTOKEN>
+Please summarize the functionality of the following JAVA method:
+public Map < String , Integer > countWordFrequency ( List < String > words ) {
+    Map < String , Integer > freqMap = new HashMap < >() ;
+    for ( String word : words ) {
+        freqMap . put ( word , freqMap . getOrDefault ( word , 0) + 1) ;
+    }
+    return freqMap ;
+}<ENDTOKEN>
+chatgpt <ENDTOKEN>
+COT <ENDTOKEN>
+Please summarize the functionality of the following JAVA method:
+public Map < String , Integer > countWordFrequency ( List < String > words ) {
+    Map < String , Integer > freqMap = new HashMap < >() ;
+    for ( String word : words ) {
+        freqMap . put ( word , freqMap . getOrDefault ( word , 0) + 1) ;
+    }
+    return freqMap ;
+}<ENDTOKEN>
+gemini <ENDTOKEN>
+COT <ENDTOKEN>
+Please summarize the functionality of the following JAVA method:
+public Map < String , Integer > countWordFrequency ( List < String > words ) {
+    Map < String , Integer > freqMap = new HashMap < >() ;
+    for ( String word : words ) {
+        freqMap . put ( word , freqMap . getOrDefault ( word , 0) + 1) ;
+    }
+    return freqMap ;
+}

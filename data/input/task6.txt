@@ -1,0 +1,26 @@
+chatgpt <ENDTOKEN>
+RP <ENDTOKEN>
+You are a SQL programmer who has been hired to design schemas <ENDTOKEN>
+Please design a sechma which fits the following requirements:
+-- TODO : Design schema with appropriate keys and constraints
+-- Tables : users (id , name ), books (id , title ), reviews (id , user_id , book_id ,
+rating ) <ENDTOKEN>
+codestral <ENDTOKEN>
+RP <ENDTOKEN>
+You are a SQL programmer who has been hired to design schemas <ENDTOKEN>
+Please design a sechma which fits the following requirements:
+-- TODO : Design schema with appropriate keys and constraints
+-- Tables : users (id , name ), books (id , title ), reviews (id , user_id , book_id ,
+rating ) <ENDTOKEN>
+chatgpt <ENDTOKEN>
+ZS <ENDTOKEN>
+Please design a sechma which fits the following requirements:
+-- TODO : Design schema with appropriate keys and constraints
+-- Tables : users (id , name ), books (id , title ), reviews (id , user_id , book_id ,
+rating ) <ENDTOKEN>
+codestral <ENDTOKEN>
+ZS <ENDTOKEN>
+Please design a sechma which fits the following requirements:
+-- TODO : Design schema with appropriate keys and constraints
+-- Tables : users (id , name ), books (id , title ), reviews (id , user_id , book_id ,
+rating ) <ENDTOKEN>

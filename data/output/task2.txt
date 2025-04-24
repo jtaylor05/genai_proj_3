@@ -1,0 +1,79 @@
+codestral
+
+@
+ZS
+
+@
+The off-by-one error in your function occurs because the `range` function in Python does not include the `end` value. To fix this, you should use `end + 1` in the `range` function so that it includes the `end` value in the sum.
+
+Here is the corrected function:
+
+```python
+def sum_range(start, end):
+    total = 0
+    for i in range(start, end + 1):
+        total += i
+    return total
+```
+
+With this change, the function will correctly sum all integers from `start` to `end`, inclusive.
+@
+gemini
+
+@
+ZS
+
+@
+```python
+def sum_range(start, end):
+    total = 0
+    for i in range(start, end + 1):
+        total += i
+    return total
+```
+
+**Explanation of the Error and Fix:**
+
+The original code had an off-by-one error because the `range()` function in Python excludes the endpoint.  `range(start, end)` generates numbers from `start` up to (but *not including*) `end`.
+
+To fix this, we need to include the `end` value in the summation. We achieve this by changing the `range()` function call to `range(start, end + 1)`.  This ensures that the loop iterates from `start` up to and including `end`.
+@
+codestral
+
+@
+SC
+
+@
+The off-by-one error in the function `sum_range` occurs because the `range` function in Python is exclusive of the `end` value. This means that `range(start, end)` will include `start` but exclude `end`. To fix this, you should use `range(start, end + 1)` to include the `end` value in the sum.
+
+Here is the corrected function:
+
+```python
+def sum_range(start, end):
+    total = 0
+    for i in range(start, end + 1):
+        total += i
+    return total
+```
+
+With this change, the function will correctly sum all integers from `start` to `end`, inclusive.
+@
+gemini
+
+@
+SC
+
+@
+```python
+def sum_range ( start , end ) :
+    total = 0
+    for i in range ( start , end + 1 ) :
+        total += i
+    return total
+```
+
+**Explanation of the Off-By-One Error and the Fix:**
+
+The original code used `range(start, end)`.  The `range()` function in Python generates a sequence of numbers from `start` (inclusive) up to, but *not including*, `end`.  This means the `end` value itself was not being included in the summation.
+
+To fix this, we need to include `end` in the range.  We do this by changing the `range()` call to `range(start, end + 1)`. This ensures that the loop iterates up to and including the `end` value.

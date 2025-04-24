@@ -1,0 +1,53 @@
+codestral <ENDTOKEN>
+FS <ENDTOKEN>
+class Spaceship:
+    def __init__(self):
+        # TODO : Add name and fuel
+        pass
+        
+COMPLETE CODE: 
+        self.name = name
+        self.fuel = fuel
+<ENDTOKEN>
+Please complete the following __init__ method for the python class
+class Person :
+    def __init__ ( self ) :
+        # TODO : Add name , age , and optional email
+        pass
+
+COMPLETE CODE:
+<ENDTOKEN>
+gemini <ENDTOKEN>
+FS <ENDTOKEN>
+class Spaceship:
+    def __init__(self):
+        # TODO : Add name and fuel
+        pass
+        
+COMPLETE CODE: 
+        self.name = name
+        self.fuel = fuel
+<ENDTOKEN>
+Please complete the following __init__ method for the python class
+class Person :
+    def __init__ ( self ) :
+        # TODO : Add name , age , and optional email
+        pass
+        
+COMPLETE CODE:
+<ENDTOKEN>
+codestral <ENDTOKEN>
+SC <ENDTOKEN>
+Please complete the following __init__ method for the python class
+class Person :
+    def __init__ ( self ) :
+        # TODO : Add name , age , and optional email
+        pass
+<ENDTOKEN>
+gemini <ENDTOKEN>
+SC <ENDTOKEN>
+Please complete the following __init__ method for the python class
+class Person :
+    def __init__ ( self ) :
+        # TODO : Add name , age , and optional email
+        pass

@@ -1,0 +1,34 @@
+gemini <ENDTOKEN>
+RP <ENDTOKEN>
+You are a helpful coding assistant. <ENDTOKEN>
+Please complete this code with the proper regex:
+def is_valid_email ( email ):
+    # TODO : Complete using regex
+    pass
+Code to complete method: <ENDTOKEN>
+codestral <ENDTOKEN>
+RP <ENDTOKEN>
+You are a helpful coding assistant. <ENDTOKEN>
+Please complete this code with the proper regex:
+def is_valid_email ( email ):
+    # TODO : Complete using regex
+    pass
+Code to complete method: <ENDTOKEN>
+gemini <ENDTOKEN>
+PC <ENDTOKEN>
+Please complete this code with the proper regex:
+def is_valid_email ( email ):
+    # TODO : Complete using regex
+    pass
+Code to complete method:
+<ENDTOKEN>
+Could you please clarify why your code snippet works? <ENDTOKEN>
+codestral <ENDTOKEN>
+PC <ENDTOKEN>
+Please complete this code with the proper regex:
+def is_valid_email ( email ):
+    # TODO : Complete using regex
+    pass
+Code to complete method:
+<ENDTOKEN>
+Could you please clarify why your code snippet works?

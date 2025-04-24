@@ -1,0 +1,41 @@
+codestral <ENDTOKEN>
+ZS <ENDTOKEN>
+Please classify the error in the following C code snippet:
+int * getArray (int size ) {
+    int arr [ size ]; // Warning : local array
+    return arr ; // Bug: returning pointer to local variable
+} <ENDTOKEN>
+chatgpt <ENDTOKEN>
+ZS <ENDTOKEN>
+Please classify the error in the following C code snippet:
+int * getArray (int size ) {
+    int arr [ size ]; // Warning : local array
+    return arr ; // Bug: returning pointer to local variable
+} <ENDTOKEN>
+codestral <ENDTOKEN>
+FS <ENDTOKEN>
+int add(int x, int y) {
+    return x + y;
+}
+Error: Wrong Operator
+<ENDTOKEN>
+Please classify the error in the following C code snippet:
+int * getArray (int size ) {
+    int arr [ size ]; // Warning : local array
+    return arr ; // Bug: returning pointer to local variable
+} 
+Error:
+<ENDTOKEN>
+chatgpt <ENDTOKEN>
+FS <ENDTOKEN>
+int add(int x, int y) {
+    return x + y;
+}
+Error: Wrong Operator
+<ENDTOKEN>
+Please classify the error in the following C code snippet:
+int * getArray (int size ) {
+    int arr [ size ]; // Warning : local array
+    return arr ; // Bug: returning pointer to local variable
+}
+Error:

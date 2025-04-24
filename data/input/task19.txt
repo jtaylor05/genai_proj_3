@@ -1,0 +1,34 @@
+llama <ENDTOKEN>
+ZS <ENDTOKEN>
+Please decompose the following C++ code segment into a high-level summary of what is happening:
+// Function that validates an input , calculates square , and returns result
+int process (int x ) {
+    if ( x < 0) return -1;
+    return x * x ;
+} <ENDTOKEN>
+gemini <ENDTOKEN>
+ZS <ENDTOKEN>
+Please decompose the following C++ code segment into a high-level summary of what is happening:
+// Function that validates an input , calculates square , and returns result
+int process (int x ) {
+    if ( x < 0) return -1;
+    return x * x ;
+} <ENDTOKEN>
+llama <ENDTOKEN>
+RP <ENDTOKEN>
+You are a helpful coding assistant which summarises code <ENDTOKEN>
+Please decompose the following C++ code segment into a high-level summary of what is happening:
+// Function that validates an input , calculates square , and returns result
+int process (int x ) {
+    if ( x < 0) return -1;
+    return x * x ;
+} <ENDTOKEN>
+gemini <ENDTOKEN>
+RP <ENDTOKEN>
+You are a helpful coding assistant which summarises code <ENDTOKEN>
+Please decompose the following C++ code segment into a high-level summary of what is happening:
+// Function that validates an input , calculates square , and returns result
+int process (int x ) {
+    if ( x < 0) return -1;
+    return x * x ;
+} <ENDTOKEN>

@@ -1,0 +1,42 @@
+codestral <ENDTOKEN>
+ZS <ENDTOKEN>
+Please implement node deletion by value in the following C code:
+struct Node {
+    int data ;
+    struct Node * next ;
+};
+void deleteNode ( struct Node ** head , int key ) {
+    // TODO : Implement node deletion
+} <ENDTOKEN>
+gemini <ENDTOKEN>
+ZS <ENDTOKEN>
+Please implement node deletion by value in the following C code:
+struct Node {
+    int data ;
+    struct Node * next ;
+};
+void deleteNode ( struct Node ** head , int key ) {
+    // TODO : Implement node deletion
+} <ENDTOKEN>
+codestral <ENDTOKEN>
+RP <ENDTOKEN>
+You are a helpful coding assistant who implements OOP code: <ENDTOKEN>
+Please implement node deletion by value in the following C code:
+struct Node {
+    int data ;
+    struct Node * next ;
+};
+void deleteNode ( struct Node ** head , int key ) {
+    // TODO : Implement node deletion
+} <ENDTOKEN>
+gemini <ENDTOKEN>
+RP <ENDTOKEN>
+You are a helpful coding assistant who implements OOP code: <ENDTOKEN>
+Please implement node deletion by value in the following C code:
+struct Node {
+    int data ;
+    struct Node * next ;
+};
+void deleteNode ( struct Node ** head , int key ) {
+    // TODO : Implement node deletion
+}

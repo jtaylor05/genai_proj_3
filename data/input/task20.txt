@@ -1,0 +1,32 @@
+gemini <ENDTOKEN>
+ZS <ENDTOKEN>
+Complete the python function based on the shown intent:
+def calculate_average ( scores ) :
+    total = 0
+    # TODO : Complete to return average
+    pass 
+<ENDTOKEN>
+codestral <ENDTOKEN>
+ZS <ENDTOKEN>
+Complete the python function based on the shown intent:
+def calculate_average ( scores ) :
+    total = 0
+    # TODO : Complete to return average
+    pass 
+<ENDTOKEN>
+gemini <ENDTOKEN>
+COT <ENDTOKEN>
+Complete the python function based on the shown intent:
+def calculate_average ( scores ) :
+    total = 0
+    # TODO : Complete to return average
+    pass 
+<ENDTOKEN>
+codestral <ENDTOKEN>
+COT <ENDTOKEN>
+Complete the python function based on the shown intent:
+def calculate_average ( scores ) :
+    total = 0
+    # TODO : Complete to return average
+    pass 
+

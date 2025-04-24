@@ -1,0 +1,41 @@
+codestral <ENDTOKEN>
+COT <ENDTOKEN>
+Please complete the end point given and return a greeting to the username at the endpoint:
+from flask import Flask , jsonify
+app = Flask ( __name__ )
+@app . route ('/ greet / < username >')
+def greet ( username ) :
+    # TODO : Return a JSON greeting
+    pass
+<ENDTOKEN>
+gemini <ENDTOKEN>
+COT <ENDTOKEN>
+Please complete the end point given and return a greeting to the username at the endpoint:
+from flask import Flask , jsonify
+app = Flask ( __name__ )
+@app . route ('/ greet / < username >')
+def greet ( username ) :
+    # TODO : Return a JSON greeting
+    pass
+<ENDTOKEN>
+codestral <ENDTOKEN>
+SC <ENDTOKEN>
+Please complete the end point given and return a greeting to the username at the endpoint:
+from flask import Flask , jsonify
+app = Flask ( __name__ )
+@app . route ('/ greet / < username >')
+def greet ( username ) :
+    # TODO : Return a JSON greeting
+    pass
+<ENDTOKEN>
+gemini <ENDTOKEN>
+SC <ENDTOKEN>
+Please complete the end point given and return a greeting to the username at the endpoint:
+from flask import Flask , jsonify
+app = Flask ( __name__ )
+@app . route ('/ greet / < username >')
+def greet ( username ) :
+    # TODO : Return a JSON greeting
+    pass
+
+

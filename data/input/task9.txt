@@ -1,0 +1,26 @@
+chatgpt <ENDTOKEN>
+COT <ENDTOKEN>
+Convert the following REST API into Kotlin GET and POST endpoints:
+data class Product ( val id : Int , val name : String , val price : Double )
+
+// TODO : Create GET and POST endpoints using Ktor <ENDTOKEN>
+gemini <ENDTOKEN>
+COT <ENDTOKEN>
+Convert the following REST API into Kotlin GET and POST endpoints:
+data class Product ( val id : Int , val name : String , val price : Double )
+
+// TODO : Create GET and POST endpoints using Ktor <ENDTOKEN>
+chatgpt <ENDTOKEN>
+RP <ENDTOKEN>
+You are a helpful coding assistant helping a junior programmer <ENDTOKEN>
+Convert the following REST API into Kotlin GET and POST endpoints:
+data class Product ( val id : Int , val name : String , val price : Double )
+
+// TODO : Create GET and POST endpoints using Ktor <ENDTOKEN>
+gemini <ENDTOKEN>
+RP <ENDTOKEN>
+You are a helpful coding assistant helping a junior programmer <ENDTOKEN>
+Convert the following REST API into Kotlin GET and POST endpoints:
+data class Product ( val id : Int , val name : String , val price : Double )
+
+// TODO : Create GET and POST endpoints using Ktor

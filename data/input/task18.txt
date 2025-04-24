@@ -1,0 +1,26 @@
+llama <ENDTOKEN>
+COT <ENDTOKEN>
+Please identify and fix the following JavaScript bug:
+function isEven ( n ) {
+    return n % 2; // Returns 1 or 0 , not true / false
+} <ENDTOKEN>
+codestral <ENDTOKEN>
+COT <ENDTOKEN>
+Please identify and fix the following JavaScript bug:
+function isEven ( n ) {
+    return n % 2; // Returns 1 or 0 , not true / false
+} <ENDTOKEN>
+llama <ENDTOKEN>
+PC <ENDTOKEN>
+Please identify the following JavaScript bug:
+function isEven ( n ) {
+    return n % 2; // Returns 1 or 0 , not true / false
+} <ENDTOKEN>
+Could you recommend a fix for the above bug? <ENDTOKEN>
+codestral <ENDTOKEN>
+PC <ENDTOKEN>
+Please identify the following JavaScript bug:
+function isEven ( n ) {
+    return n % 2; // Returns 1 or 0 , not true / false
+} <ENDTOKEN>
+Could you recommend a fix for the above bug?
