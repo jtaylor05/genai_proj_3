@@ -16,7 +16,7 @@ for i in files_to_check:
     filename = "task" + str(i) + ".txt"
     in_file = os.path.join("data", "input", filename)
     with open(in_file, "r") as f:
-        input_stream = f.read().split("@")
+        input_stream = f.read().split("<ENDTOKEN>")
         while len(input_stream) > 2:
             model = input_stream[0].strip()
             strat = input_stream[1].strip()
@@ -66,6 +66,6 @@ for i in files_to_check:
 
     out_file = os.path.join("data", "output", filename)
 
-    with open(out_file, "w") as f:
+    with open(out_file, "w", encoding="utf-8", errors="replace") as f:
         content = "\n@\n".join(output)
         f.write(content)

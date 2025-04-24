@@ -2,7 +2,6 @@ from models import Models
 from nltk.translate.bleu_score import sentence_bleu
 
 def zero_shot_prompt(models : Models, model, prompt):
-    print(models.to_message_format(model, prompt))
     return models.request(model, models.to_message_format(model, prompt))
 def few_shot_prompt(models : Models, model, prompt, examples):
     system_prompt = "\n".join(examples)
@@ -28,7 +27,6 @@ def role_play_prompt(models : Models, model, prompt, role):
 def prompt_chaining(models : Models, model, prompt1, prompt2):
     conversation = models.to_message_format(model, prompt1)
     reply = models.request(model, conversation)
-    conversation.append({"role": "assistant", "content": reply})
-    conversation.append({"role": "user", "content": prompt2})
+    conversation = models.add_to_message_formate(model, conversation, prompt2, reply)
     return reply + "\n" + prompt2 + "\n" + models.request(model, conversation)
     

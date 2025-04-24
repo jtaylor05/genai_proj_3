@@ -68,7 +68,6 @@ class Models:
         return message
     
     def llama(self, messages, max_tokens = 1024):
-        print(messages)
         response = self.openai_client.chat.completions.create(
             model=self.MODELS['llama'],
             max_tokens=max_tokens,
